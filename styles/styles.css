@@ -146,11 +146,12 @@ letter-spacing: 0.02em;
     text-transform: uppercase;
     padding-top: 24px;
     padding-bottom: 24px;
-    
+    margin-left:16px
 }
 @media only screen and (min-width: 1200px) {
   .head-logo {
     margin-right: 76px;
+    margin-left:0
   }
 }
 
@@ -610,10 +611,10 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 display: grid;
 gap:24px;
 justify-content: center;
-grid-template-columns: repeat(1, 190px);
 }
 @media only screen and (min-width: 480px) {
   .customers-list {
+    display: grid;
     grid-template-columns: repeat(2, 190px);
   }
 }
@@ -681,14 +682,17 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 .footer-list{
     display: block;
     margin-bottom:72px
+
 }
+
+
 
 @media only screen and (min-width: 768px) {
   .footer-list {
     display: flex;
     gap:80px;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
   }
 }
 
@@ -1255,6 +1259,7 @@ border-color: var(--linkscolor);
     margin-bottom: auto;
     display: flex;
     flex-direction: column;
+    margin-top: 80px;
   }
 
   .mobile-menu-nav {
