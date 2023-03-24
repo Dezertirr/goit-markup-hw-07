@@ -1193,19 +1193,21 @@ border-color: var(--linkscolor);
 
 
   .menu-toggle {
-    min-height: 40px;
-    min-width: 40px;
+    height: 24px;
+    width: 24px;
     display: flex;
     align-items: center;
     justify-content: center;
   
     margin: 0;
     padding: 0;
-    background-color: transparent;
+    background-color: #E7E9FC1A;
     cursor: pointer;
     border: none;
     border-radius: 50%;
     outline: none;
+    fill: var(--maincolor);
+    border: 1px solid #2E2F421A;
   }
   
   @media (min-width: 768px) {
@@ -1223,14 +1225,16 @@ border-color: var(--linkscolor);
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     padding: 32px;
     background-color: var(--background);
     z-index: 999;
   
     transform: translateX(100%);
     transition: transform 250ms ease-in-out;
+    display: flex;
+    flex-direction: column;
   }
   
   .menu-container.is-open {
@@ -1249,6 +1253,8 @@ border-color: var(--linkscolor);
     margin: 0;
     list-style: none;
     margin-bottom: auto;
+    display: flex;
+    flex-direction: column;
   }
 
   .mobile-menu-nav {
@@ -1281,6 +1287,8 @@ color: var(--maincolor);
   .list-mobile-adress{
     display: flex;
     flex-direction: column;
+    justify-self: flex-end;
+    margin-bottom: 48px;
   }
 
   .mobile-menu-number{
@@ -1288,6 +1296,7 @@ color: var(--maincolor);
 font-size: 36px;
 line-height: 40px;
 color: var(--linkscolor);
+margin-bottom: 40px;
   }
 
   .mobile-menu-mail {
