@@ -93,6 +93,7 @@ letter-spacing: 0.02em;
     display: flex;
     margin: 0 auto;
     justify-content: space-between;
+    margin-left: 16px
 }
 
 @media only screen and (min-width: 1200px) {
@@ -152,12 +153,10 @@ letter-spacing: 0.02em;
     text-transform: uppercase;
     padding-top: 24px;
     padding-bottom: 24px;
-    margin-left:16px
 }
 @media only screen and (min-width: 1200px) {
   .head-logo {
     margin-right: 76px;
-    margin-left:0
   }
 }
 
@@ -541,7 +540,7 @@ margin-bottom: 72px;
   .list-personal {
     gap:24px 64px;
     grid-template-columns: repeat(2, 264px);
-    justify-content: space-around;
+    justify-content: center;
     margin:0 auto;
   }
 }
