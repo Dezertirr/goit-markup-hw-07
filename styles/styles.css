@@ -1306,6 +1306,10 @@ border-color: var(--linkscolor);
     margin-top: 80px;
   }
 
+  .mobile-menu-svg {
+    stroke: var(--maincolor);
+  }
+
   .mobile-menu-nav {
     font-weight: 700;
 font-size: 36px;
