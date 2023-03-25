@@ -423,7 +423,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 @media only screen and (min-width: 768px) {
   .futures-block {
-    margin: 0 0 0 16px
+    margin: 0;
   }
 }
 
